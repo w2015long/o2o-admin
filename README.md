@@ -263,6 +263,7 @@ let data2={
 };
 //对象合并，类似java的 copyProperties(source, target)
 let newObj = Object.assign({},data2, data1);
+const copyObj = {...newObj}
 console.log(data1);
 console.log(data2);
 console.log(newObj)
